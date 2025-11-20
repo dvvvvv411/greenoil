@@ -26,13 +26,12 @@ const Datenschutz = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
-                <p className="font-semibold">HILL-Clear Projects GmbH</p>
-                <p>Rottmannstr. 22a</p>
-                <p>80333 München</p>
+                <p className="font-semibold">Green Oil Trade and Service GmbH</p>
+                <p>Kühgassfelderweg 13</p>
+                <p>90482 Nürnberg</p>
                 <p>Deutschland</p>
                 <p className="mt-4">
-                  <span className="font-semibold">E-Mail:</span> info@hill-heizoel.de<br />
-                  <span className="font-semibold">Telefon:</span> 089 416 133 45
+                  <span className="font-semibold">E-Mail:</span> info@greenoil-heizoel.de
                 </p>
               </div>
             </CardContent>
@@ -146,8 +145,7 @@ const Datenschutz = () => {
                 Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte kontaktieren Sie uns unter:
               </p>
               <div className="mt-3 space-y-1 text-gray-700 text-sm">
-                <p><span className="font-semibold">E-Mail:</span> info@hill-heizoel.de</p>
-                <p><span className="font-semibold">Telefon:</span> 089 416 133 45</p>
+                <p><span className="font-semibold">E-Mail:</span> info@greenoil-heizoel.de</p>
               </div>
             </CardContent>
           </Card>
