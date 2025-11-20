@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <img 
-              src="/lovable-uploads/a242d3e4-8d70-4fc0-8cab-947043c42574.png" 
+              src="/lovable-uploads/greenoil.png" 
               alt="GreenOil" 
               className="h-20"
             />
