@@ -1,5 +1,5 @@
-
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Building, Users, Award, Clock, MapPin, Shield, CheckCircle, Mail } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -74,8 +74,12 @@ const AboutUs = () => {
 
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Über GreenOil | Ihr zuverlässiger Heizöl-Partner</title>
+        <meta name="description" content="Erfahren Sie mehr über GreenOil - Green Oil Trade and Service GmbH. Qualität, Service und Nachhaltigkeit seit Jahren. Ihr Partner für Heizöl in Deutschland." />
+      </Helmet>
       <Header />
-      
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-20">
         <div className="container mx-auto px-4 text-center">

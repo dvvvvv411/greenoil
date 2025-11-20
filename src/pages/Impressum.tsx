@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,8 +7,12 @@ import { Building, Phone, Mail, MapPin } from 'lucide-react';
 const Impressum = () => {
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Impressum | GreenOil - Green Oil Trade and Service GmbH</title>
+        <meta name="description" content="Impressum und Kontaktdaten der Green Oil Trade and Service GmbH, Nürnberg. Alle rechtlichen Informationen und Unternehmensangaben." />
+      </Helmet>
       <Header />
-      
+
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">

@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,8 +7,12 @@ import { Shield, Eye, Lock, Database } from 'lucide-react';
 const Datenschutz = () => {
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Datenschutzerklärung | GreenOil</title>
+        <meta name="description" content="Datenschutzerklärung von GreenOil. Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO." />
+      </Helmet>
       <Header />
-      
+
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
