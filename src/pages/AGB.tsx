@@ -1,4 +1,4 @@
-
+import { Helmet } from 'react-helmet-async';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -7,8 +7,12 @@ import { FileText, Truck, CreditCard, AlertTriangle } from 'lucide-react';
 const AGB = () => {
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>AGB | Allgemeine Geschäftsbedingungen - GreenOil</title>
+        <meta name="description" content="Allgemeine Geschäftsbedingungen der Green Oil Trade and Service GmbH für Heizöl-Bestellungen und Lieferungen." />
+      </Helmet>
       <Header />
-      
+
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
