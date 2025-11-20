@@ -6,7 +6,7 @@ const CompanySection = () => {
   const stats = [
     {
       icon: Building,
-      number: '2003',
+      number: '2016',
       label: 'Gegründet',
       description: 'Über 20 Jahre Erfahrung'
     },
@@ -35,10 +35,10 @@ const CompanySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Über HILL-Heizöl
+            Über GreenOil
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ihr zuverlässiger Partner für Heizöl in Deutschland seit über 20 Jahren. 
+            Ihr zuverlässiger Partner für Heizöl in Deutschland mit über 20 Jahren Erfahrung. 
             Wir stehen für Qualität, Service und faire Preise.
           </p>
         </div>
@@ -51,21 +51,21 @@ const CompanySection = () => {
             </h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Seit der Gründung im Jahr 2003 haben wir uns zu einem der führenden 
-                Heizöl-Anbieter in Deutschland entwickelt. Was als kleines Familienunternehmen 
-                in München begann, ist heute ein zuverlässiger Partner für über 100.000 
+                Seit der Gründung im Jahr 2016 haben wir uns zu einem der führenden 
+                Heizöl-Anbieter in Deutschland entwickelt. Was als Unternehmen 
+                in Nürnberg begann, ist heute ein zuverlässiger Partner für über 100.000 
                 Kunden in ganz Deutschland.
               </p>
               <p>
                 Unser Erfolgsrezept ist einfach: Wir bieten erstklassige Qualität zu 
                 fairen Preisen und legen dabei größten Wert auf persönlichen Service 
                 und Kundenzufriedenheit. Dabei setzen wir auf modernste Technik und 
-                ein erfahrenes Team.
+                ein erfahrenes Team mit über 20 Jahren Erfahrung.
               </p>
               <p>
-                Als bayerisches Unternehmen kennen wir die Bedürfnisse unserer Kunden 
+                Als deutschlandweit agierendes Unternehmen kennen wir die Bedürfnisse unserer Kunden 
                 genau und sind stolz darauf, einen Beitrag zur Energieversorgung in 
-                unserem schönen Bayern zu leisten.
+                ganz Deutschland zu leisten.
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ const CompanySection = () => {
                 <div className="h-96 w-full">
                   <img 
                     src="https://i.imgur.com/xPI8LoI.jpeg" 
-                    alt="HILL-Heizöl Unternehmen" 
+                    alt="GreenOil Unternehmen" 
                     className="w-full h-full object-cover"
                   />
                 </div>

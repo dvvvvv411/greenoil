@@ -96,7 +96,7 @@ const DeliverySection = () => {
                   </p>
                   <p className="text-gray-600 text-sm">
                     Kein Problem! Wir beliefern auch weitere Orte in Deutschland. 
-                    Kontaktieren Sie uns unter <span className="font-medium">089 416 133 45</span> 
+                    Kontaktieren Sie uns per E-Mail an <span className="font-medium">info@greenoil-heizoel.de</span> 
                     und wir prüfen die Liefermöglichkeit.
                   </p>
                 </div>

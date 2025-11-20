@@ -11,16 +11,16 @@ const Footer = () => {
           <div className="space-y-4">
             <img 
               src="/lovable-uploads/a242d3e4-8d70-4fc0-8cab-947043c42574.png" 
-              alt="HILL-Heizöl" 
+              alt="GreenOil" 
               className="h-20"
             />
             <p className="text-gray-300 leading-relaxed">
-              Ihr zuverlässiger Partner für Heizöl in Bayern seit über 20 Jahren. 
+              Ihr zuverlässiger Partner für Heizöl in Deutschland mit über 20 Jahren Erfahrung. 
               Qualität, Service und faire Preise.
             </p>
             <div>
-              <div className="font-semibold">HILL-Clear Projects GmbH</div>
-              <div className="text-sm text-gray-400">Bayern's Heizöl-Experte</div>
+              <div className="font-semibold">Green Oil Trade and Service GmbH</div>
+              <div className="text-sm text-gray-400">Deutschlands Heizöl-Experte</div>
             </div>
           </div>
 
@@ -43,13 +43,13 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-primary-400" />
-                <span>info@hill-heizoel.de</span>
+                <span>info@greenoil-heizoel.de</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={16} className="text-accent-orange-400 mt-1" />
                 <div>
-                  <div>Rottmannstr. 22a</div>
-                  <div>80333 München</div>
+                  <div>Kühgassfelderweg 13</div>
+                  <div>90482 Nürnberg</div>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2025 HILL-Clear Projects GmbH. Alle Rechte vorbehalten.
+              © 2025 Green Oil Trade and Service GmbH. Alle Rechte vorbehalten.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm text-gray-400">
               <Link to="/impressum" className="hover:text-accent-orange-400 transition-colors">Impressum</Link>

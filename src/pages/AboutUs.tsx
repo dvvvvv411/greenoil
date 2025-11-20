@@ -80,16 +80,16 @@ const AboutUs = () => {
       <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Über HILL-Clear Projects GmbH
+            Über Green Oil Trade and Service GmbH
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
-            Seit über 20 Jahren Ihr zuverlässiger Partner für Premium-Heizöl in Deutschland. 
+            Seit 2016 Ihr zuverlässiger Partner für Premium-Heizöl in Deutschland. 
             Qualität, Service und faire Preise sind unser Versprechen an Sie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="outline" className="border-primary-600 text-primary-600 hover:bg-primary-50">
               <Mail className="mr-2" size={20} />
-              info@hill-heizoel.de
+              info@greenoil-heizoel.de
             </Button>
           </div>
         </div>
@@ -137,9 +137,9 @@ const AboutUs = () => {
               </h2>
               <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  Im Jahr 2003 wurde HILL-Clear Projects GmbH mit dem Ziel gegründet, 
+                  Im Jahr 2016 wurde Green Oil Trade and Service GmbH mit dem Ziel gegründet, 
                   Kunden in Deutschland mit hochwertigem Heizöl zu fairen Preisen zu versorgen. 
-                  Was als kleines Familienunternehmen begann, hat sich zu einem der 
+                  Was als Unternehmen in Nürnberg begann, hat sich zu einem der 
                   führenden Heizöl-Anbieter in der Region entwickelt.
                 </p>
                 <p>
@@ -151,7 +151,7 @@ const AboutUs = () => {
                 <p>
                   Mit über 100.000 zufriedenen Kunden und mehr als 200.000 erfolgreichen 
                   Lieferungen haben wir uns das Vertrauen der Menschen in Deutschland verdient. 
-                  Unser Team aus erfahrenen Fachkräften steht Ihnen jederzeit mit Rat 
+                  Unser Team mit über 20 Jahren Branchenerfahrung steht Ihnen jederzeit mit Rat 
                   und Tat zur Seite.
                 </p>
               </div>
@@ -159,11 +159,11 @@ const AboutUs = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl p-12 text-white text-center shadow-2xl">
                 <Building size={80} className="mx-auto mb-6 text-primary-100" />
-                <h3 className="text-3xl font-bold mb-4">HILL-Clear</h3>
-                <p className="text-xl text-primary-100 mb-6">Projects GmbH</p>
+                <h3 className="text-3xl font-bold mb-4">GreenOil</h3>
+                <p className="text-xl text-primary-100 mb-6">Green Oil Trade and Service GmbH</p>
                 <div className="space-y-2 text-primary-100">
-                  <p>Seit 2003 in München</p>
-                  <p>Bayern's Heizöl-Experte</p>
+                  <p>Seit 2016 in Nürnberg</p>
+                  <p>Deutschlands Heizöl-Experte</p>
                 </div>
               </div>
             </div>
