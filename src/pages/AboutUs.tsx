@@ -176,7 +176,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Warum Heizöl von HILL-Clear wählen?
+              Warum Heizöl von GreenOil wählen?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Wir bieten Ihnen mehr als nur Heizöl - wir bieten Ihnen Sicherheit, 
@@ -318,7 +318,7 @@ const AboutUs = () => {
               <CardContent className="p-12">
                 <div className="text-center mb-8">
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                    HILL-Clear Projects GmbH
+                    Green Oil Trade and Service GmbH
                   </h2>
                   <p className="text-xl text-gray-600">
                     Ihr Partner für Heizöl in Deutschland
@@ -329,9 +329,9 @@ const AboutUs = () => {
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">Anschrift</h3>
                     <div className="space-y-2 text-gray-700">
-                      <p>HILL-Clear Projects GmbH</p>
-                      <p>Rottmannstr. 22a</p>
-                      <p>80333 München</p>
+                      <p>Green Oil Trade and Service GmbH</p>
+                      <p>Kühgassfelderweg 13</p>
+                      <p>90482 Nürnberg</p>
                       <p>Deutschland</p>
                     </div>
                   </div>
@@ -341,7 +341,7 @@ const AboutUs = () => {
                     <div className="space-y-3">
                       <div className="flex items-center">
                         <Mail className="text-primary-600 mr-3" size={20} />
-                        <span className="text-gray-700">info@hill-heizoel.de</span>
+                        <span className="text-gray-700">info@greenoil-heizoel.de</span>
                       </div>
                     </div>
                   </div>
@@ -349,9 +349,9 @@ const AboutUs = () => {
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">Handelsregister</h3>
                     <div className="space-y-2 text-gray-700">
-                      <p>HRB 267211</p>
-                      <p>Amtsgericht München</p>
-                      <p>USt-IdNr.: DE970703271</p>
+                      <p>HRB 32692</p>
+                      <p>Amtsgericht Nürnberg</p>
+                      <p>USt-IdNr.: DE427997637</p>
                     </div>
                   </div>
 
