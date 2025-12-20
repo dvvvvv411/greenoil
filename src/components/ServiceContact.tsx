@@ -9,7 +9,7 @@ const ServiceContact = () => {
     {
       icon: Bell,
       title: 'Online-Service',
-      info: 'info@greenoil-heizoel.de',
+      info: 'info@greenoil-energie.de',
       description: 'E-Mail-Anfragen und Online-Bestellung',
       availability: 'Antwort innerhalb 2 Stunden'
     },
