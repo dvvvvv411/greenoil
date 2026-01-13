@@ -53,14 +53,13 @@ const HandelsblattBanner = () => {
       </p>
 
       {/* Footer */}
-      <div className="flex justify-between items-center text-xs text-gray-500 mb-2">
-        <span>Fabian Stippler</span>
-        <span>{formattedDate}</span>
-      </div>
-
-      {/* Weiter lesen */}
-      <div className="text-right">
-        <span className="text-[#ef6400] text-xs font-medium hover:underline">
+      <div className="flex justify-between items-center text-xs text-gray-500">
+        <div className="flex items-center gap-2">
+          <span>{formattedDate}</span>
+          <span>·</span>
+          <span>Fabian Stippler</span>
+        </div>
+        <span className="text-[#ef6400] font-medium hover:underline">
           Weiter lesen →
         </span>
       </div>
