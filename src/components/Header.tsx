@@ -19,7 +19,7 @@ const HandelsblattBanner = () => {
       href="https://handels-blatt.de/artikel/dieses-gesetz-sorgt-fuer2"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-white border border-gray-200 p-3 max-w-sm hover:shadow-md transition-shadow rounded-none block"
+      className="bg-white border border-gray-200 p-3 w-full lg:max-w-sm hover:shadow-md transition-shadow rounded-none block"
     >
       {/* Header mit H+ und Handelsblatt Logo */}
       <div className="flex justify-between items-start mb-2">
@@ -160,6 +160,11 @@ const Header = () => {
                 {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
               </button>
             </div>
+          </div>
+
+          {/* Handelsblatt Banner - Mobile */}
+          <div className="py-3 border-t border-gray-100">
+            <HandelsblattBanner />
           </div>
 
           {/* Mobile Navigation Menu */}
